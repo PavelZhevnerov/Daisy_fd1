@@ -1,0 +1,358 @@
+.font__sourceSansPro_regular{
+	font-family: 'Source Sans Pro', 'Open Sans', Arial, sans-serif;
+	font-style: normal;
+  	font-weight: 400;
+}
+
+.font__sourceSansPro_bold{
+	font-family: 'Source Sans Pro', 'Open Sans', Arial, sans-serif;
+	font-style: normal;
+  	font-weight: 700;
+}
+
+.font__sourceSansPro_thin{
+	font-family: 'Source Sans Pro', 'Open Sans', Arial, sans-serif;
+	font-style: normal;
+  	font-weight: 300;
+}
+
+.font__gothamPro_bold{
+	font-family: 'Gotham Pro Bold', 'Myriad Pro', Myriad, Arial, sans-serif;
+	font-style: normal;
+  	font-weight: 900;
+}
+
+							/* The same page style */
+
+.daisySite__item_sameStyle{
+	padding:20px 160px 0px;
+	position: relative;
+	transition:all 1s linear;
+}
+
+
+							/* Button Slide Down - Red */
+
+.button__slideDown_red{
+	width: 30px;
+	height: 30px;
+	border-radius:50%;
+	background-color:#fc635e;
+	line-height:30px;
+	font-size:30px;
+	text-align: center;
+}
+
+.button__slideDown_red:hover{
+	background-color: #fff;
+	border:2px solid #fc635e;
+}
+
+.slideDown__link_red{
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+	color:#fff;
+}
+
+.slideDown__link_red:hover{
+	color:#fc635e;
+}
+
+							/* Button Slide Down - White */
+
+.button__slideDown{
+	position: absolute;
+	left:calc(50% - 15px);
+	bottom:10px;
+}
+
+.button__slideDown_white{
+	width: 30px;
+	height: 30px;
+	border-radius:50%;
+	background-color:#fff;
+	line-height:30px;
+	font-size:30px;
+	border:2px solid #fc635e;
+	box-sizing:border-box;
+	text-align: center;
+}
+
+.button__slideDown_white:hover{
+	background-color: #fc635e;
+	border:none;
+}
+
+.slideDown__link_white{
+	display:inline-block;
+	width: 100%;
+	height: 100%;
+	color:#fc635e;
+}
+
+.slideDown__link_white:hover{
+	color:#fff;
+}
+
+							/* Logo */
+
+.logo__figure{
+	width: 60px;
+	height: 70px;
+	position: relative;
+	text-align: center;
+}
+.logo__figure_hex{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index:1;
+}
+.logo__figure_text{
+	width: 100%;
+	font-size:35px;
+	color:#0c252d;
+	line-height: 70px;
+	font-weight: 700;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index:2;
+	margin: 0;
+}
+
+.logo__text{
+	font-size:24px;
+	color:#fff;
+	margin: 0;
+}
+
+.logo__link{
+	width: 100%;
+	height: 100%;
+}
+
+							/* Color title */
+
+.text_anotherСolor{
+	color:#fc635e;
+}
+
+							/* Heading title & text */
+
+.heading_title{
+	font-size:28px;
+	color:#868686;
+	display:inline-block;
+	text-transform: uppercase;
+	border-bottom:1px solid #adadad;
+	transition:all 1s linear;
+}
+
+.heading_text{
+	font-size:20px;
+	width:530px;
+	margin:auto;
+	color:#adadad;
+}
+
+						/* page 4 - Our process - Title & text style */
+
+.process__blocks_title{
+	border-bottom:1px solid #adadad;
+	font-size:24px;
+	color:#868686;
+	text-transform: uppercase;
+}
+
+.process__blocks_text{
+	font-size:15px;
+	color:#9f9f9f;
+	line-height:17px;
+	padding-left: 15px;
+	flex-basis:150px;
+}
+
+						/* Page 4 - Our process - Icon */
+
+.process__icon{
+	width: 40px;
+	height: 40px;
+	background-color: #fc635e;
+	position: absolute;
+	border-radius:50%;
+	z-index:2;
+	text-align: center;
+	color:#fff;
+	line-height:40px;
+}
+.process__hexagon{
+	position: absolute;
+  	top:0;
+  	left:0;
+}
+
+					/* page 5 - What do we do - Button More Details */
+
+.button__moreDetails{
+	width: 170px;
+	height: 45px;
+	box-sizing:border-box;
+	font-size:20px;
+	color:#f2f2f2;
+	background-color:#fc635e;
+	border-radius:7px;
+	display:block;
+	border:none;
+}
+
+.button__moreDetails:hover{
+	background-color: #f2f2f2;
+	color:#fc635e;
+	border:2px solid #fc635e;
+}
+
+					/* page 7 - ourTeam - Hexagon avatar */
+
+.person__avatar{
+	width: 148px;
+	height: 168px;
+	margin:auto;
+}
+
+.person__avatar div{
+	float:left;
+}
+
+.avatar__item_topLeft{
+  	width: 0;
+	height: 0;
+	border-top: 42px solid #f2f2f2;
+	border-right: 74px solid transparent;
+}
+.avatar__item_topRight{
+  	width: 0;
+	height: 0;
+	border-top: 42px solid #f2f2f2;
+	border-left: 74px solid transparent;
+}
+.avatar__item_center{
+  	height: 84px;
+  	width: 148px;
+}
+.avatar__item_bottomLeft{
+  	width: 0;
+	height: 0;
+	border-bottom: 42px solid #f2f2f2;
+	border-right: 74px solid transparent;
+}
+.avatar__item_bottomRight{
+  	width: 0;
+	height: 0;
+	border-bottom: 42px solid #f2f2f2;
+	border-left: 74px solid transparent;
+}
+
+							/* Footer / Testimonials - Hexagon - "" */
+.figure__hexagon_back{
+  	width: 74px;
+  	height: 42px;
+  	background: #fe8682;
+  	box-sizing:border-box;
+  	position: relative;
+  	margin:auto;
+  	top:21px;
+}
+.figure__hexagon_back:before {
+	content: "";
+  	position: absolute;
+	top: -21px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+	border-bottom: 21px solid #fe8682;
+}
+.figure__hexagon_back:after {
+	content: "";
+	position: absolute;
+	bottom: -21px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+	border-top: 21px solid #fe8682;
+}
+.figure__hexagon_front{
+  	width: 74px;
+  	height: 42px;
+  	background: #fc635e;
+  	box-sizing:border-box;
+  	position: relative;
+  	transform:scale(0.9);
+  	margin:auto;
+	top: -21px;
+	text-align: center;
+	line-height:40px;
+  	font-size:40px;
+  	color:#fff;
+}
+.figure__hexagon_front:before {
+	content: "";
+  	position: absolute;
+	top: -21px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+	border-bottom: 21px solid #fc635e;
+}
+.figure__hexagon_front:after {
+	content: "";
+	position: absolute;
+	bottom: -21px;
+	left: 0;
+	width: 0;
+	height: 0;
+	border-left: 37px solid transparent;
+	border-right: 37px solid transparent;
+	border-top: 21px solid #fc635e;
+}
+
+							/* Footer / Testimonials - Hexagon - Avatar */
+.testimonials__content_avatar div{
+	float:left;
+}
+
+.testimonials__avatar_topLeftBlock{
+  	width: 0;
+	height: 0;
+	border-top: 46px solid #fff;
+	border-right: 80px solid transparent;
+}
+.testimonials__avatar_topRightBlock{
+  	width: 0;
+	height: 0;
+	border-top: 46px solid #fff;
+	border-left: 80px solid transparent;
+}
+.testimonials__avatar_centerBlock{
+  	height: 93px;
+  	width: 160px;
+}
+.testimonials__avatar_bottomLeftBlock{
+  	width: 0;
+	height: 0;
+	border-bottom: 46px solid #fff;
+	border-right: 80px solid transparent;
+}
+.testimonials__avatar_bottomRightBlock{
+  width: 0;
+	height: 0;
+	border-bottom: 46px solid #fff;
+	border-left: 80px solid transparent;
+}
